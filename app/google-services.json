@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070305992188",
+    "firebase_url": "https://boshware-fitciti.firebaseio.com",
+    "project_id": "boshware-fitciti",
+    "storage_bucket": "boshware-fitciti.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070305992188:android:04a9abbb4fc1ad45",
+        "android_client_info": {
+          "package_name": "com.boshware.fitciti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070305992188-0b517s7ccit8b1nugvss8fvgkv5spf9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.boshware.fitciti",
+            "certificate_hash": "2a5a49cfeacfacf3d3bee60cbb8958ba4c31c466"
+          }
+        },
+        {
+          "client_id": "1070305992188-j91t8s7t1fi9f492997e9u3in15vtub1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwrUPOgdgIvcaqpdv8FwaR9Xq_bTyUNFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070305992188-j91t8s7t1fi9f492997e9u3in15vtub1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

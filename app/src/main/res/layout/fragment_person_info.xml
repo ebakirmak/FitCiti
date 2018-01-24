@@ -1,0 +1,119 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.boshware.fitciti.SignUp.PersonInfoFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            style="@style/styleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="30dp">
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/fpiBirthdate"
+                style="@style/styleMaterialEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fpiBirtDate"
+                app:met_baseColor="@color/colorEdtText"
+                app:met_errorColor="@color/colorError"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/colorAccent"
+                app:met_singleLineEllipsis="true" />
+
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/fpiWeight"
+                style="@style/styleMaterialEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fpiEdtWeight"
+                app:met_baseColor="@color/colorEdtText"
+                app:met_errorColor="@color/colorError"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="3"
+                app:met_primaryColor="@color/colorAccent"
+                app:met_singleLineEllipsis="true" />
+
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/fpiHeight"
+                style="@style/styleMaterialEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/fpiEdtHeight"
+                app:met_baseColor="@color/colorEdtText"
+                app:met_errorColor="@color/colorError"
+                app:met_floatingLabel="highlight"
+                app:met_maxCharacters="3"
+                app:met_primaryColor="@color/colorAccent"
+                app:met_singleLineEllipsis="false" />
+
+
+
+            <Spinner
+                android:padding="16dp"
+                style="@style/styleSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fpiSpnGoal"
+                android:prompt="@string/fpiGoal"
+                android:entries="@array/fpiArrGoal"
+                android:spinnerMode="dialog">
+            </Spinner>
+
+            <Spinner
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fpiSpnActivityFrequences"
+                android:prompt="@string/fpiActivityFrequency"
+                android:entries="@array/fpiArrActivityFrequency"
+                android:spinnerMode="dialog">
+            </Spinner>
+
+
+        </LinearLayout>
+
+
+
+
+
+        <com.rey.material.widget.Button
+            android:id="@+id/fpi_btnNext"
+            style="@style/styleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="15dp"
+            android:text="@string/faBtnNext"
+            app:rd_rippleType="wave"
+            app:rd_style="@style/Material.Drawable.Ripple.Wave.Light" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,47 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.boshware.fitciti.Home.Messages.MessageDetailFragment">
+    <RelativeLayout
+        android:id="@+id/fmdRelative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fmdLinear">
+            <ListView
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fmdListView">
+            </ListView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_toEndOf="@id/fmdLinear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.rey.material.widget.EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4">
+
+            </com.rey.material.widget.EditText>
+            <com.rey.material.widget.Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gönder"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>
+
+
+

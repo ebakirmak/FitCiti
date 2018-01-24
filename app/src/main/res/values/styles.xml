@@ -1,0 +1,78 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <!-- Style for all Spinner -->
+    <style name="styleSpinner">
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorEdtText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for all TextView -->
+    <style name="styleTextView">
+        <item name="android:layout_width">match_parent</item>
+        <!-- <item name="android:layout_height">@dimen/list_item_height</item>-->
+        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorEdtText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="styleTextName">
+        <item name="android:layout_width">match_parent</item>
+        <!-- <item name="android:layout_height">@dimen/list_item_height</item>-->
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="styleTextMessage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for a category of vocabulary words -->
+    <style name="styleButton">
+        <item name="android:textAlignment">center</item>
+        <!-- <item name="android:layout_height">@dimen/list_item_height</item>-->
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textColor">#BBDEFB</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Style for all com.rengwuxian.materialedittext.MaterialEditText -->
+    <style name="styleMaterialEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorEdtText</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!-- Style for TextViewMessage in MessageDetailFragment -->
+    <style name="styleTextMessageDetail">
+        <item name="android:layout_width">match_parent</item>
+      <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+</resources>

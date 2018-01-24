@@ -1,0 +1,89 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.boshware.fitciti.SignUp.LocationInfoFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+            style="@style/styleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/fliTxtLocationInfo"
+            android:textSize="20sp"/>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="30dp">
+
+
+
+
+
+            <Spinner
+                android:padding="16dp"
+                style="@style/styleSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fliCountry"
+                android:prompt="@string/fpiGoal"
+                android:entries="@array/fliCountry"
+                android:spinnerMode="dialog">
+            </Spinner>
+
+
+            <Spinner
+                android:padding="16dp"
+                style="@style/styleSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fliProvince"
+                android:prompt="@string/fpiGoal"
+                android:entries="@array/fliTurkeyProvince"
+                android:spinnerMode="dialog">
+            </Spinner>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/fliBtnNext"
+            style="@style/styleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="15dp"
+            android:text="@string/fliBtnNext"
+            app:rd_rippleType="wave"
+            app:rd_style="@style/Material.Drawable.Ripple.Wave.Light"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

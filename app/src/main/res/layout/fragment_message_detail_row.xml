@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/styleTextMessageDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fmdrSendMessage"
+        android:background="@color/colorSend"/>
+
+    <TextView
+        android:background="@color/colorReceive"
+        style="@style/styleTextMessageDetail"
+        android:textAlignment="viewEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fmdrReceiveMessage" />
+
+
+
+</LinearLayout>
